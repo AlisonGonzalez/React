@@ -1,0 +1,101 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #E9EBEE;
+}
+
+.list{
+  display:inline-block;
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.list h1{
+  color: #333;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+.list ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list ul li{
+  border: 1px solid #CCC;
+  padding: 15px;
+  background-color: #FEFEFE;
+  min-width: 300px;
+  min-height: 70px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+.list ul li span.name{
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.list ul li span.character{
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.list ul span.photo{
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  display: inline-block;
+  float:left;
+  margin-right: 10px;
+}
+
+.list ul li span.photo img{
+  display: inline-block;
+  width: 100%;
+}
+
+.list ul li button{
+  padding: 0;
+  border: none;
+  background: none;
+  color: #f00;
+  cursor: pointer;
+}
+
+.actorForm{
+  display:inline-block;
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+  border: 1px solid #CCC;
+  background-color: #FEFEFE;
+  min-width: 300px;
+  min-height: 70px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+.actorForm h2{
+  font-weight: 500;
+}
+
+.actorForm input{
+  font-size: 16px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.actorForm button{
+  background-color: #4CAF50;
+  font-size: 16px;
+  color: #fff;
+  padding: 15px 15px;
+  float: right;
+  margin-top: 15px;
+}

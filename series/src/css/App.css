@@ -1,0 +1,148 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #E9EBEE;
+}
+
+.list{
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  float: left;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+.list button{
+  background-color: #CC0100;
+  border-style: none;
+  color: #FFF;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+
+.serieTitle{
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  font-weight: 100;
+  padding-left: 10px;
+  float: left;
+}
+
+.serieID{
+  text-align: center;
+  float: left;
+  clear: right;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #EEE;
+  border-radius: 5px;
+}
+
+.serieList h1{
+  margin: 20px;
+}
+
+.serieList{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 350px;
+  overflow: auto;
+  clear: left;
+}
+
+.list ul li{
+  border: 1px solid #CCC;
+  padding: 15px;
+  background-color: #FEFEFE;
+  min-width: 300px;
+  min-height: 70px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+.list ul li span.name{
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.list ul li span.character{
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.list ul span.photo{
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  display: inline-block;
+  float:left;
+  margin-right: 10px;
+}
+
+.list ul li span.photo img{
+  display: inline-block;
+  width: 100%;
+}
+
+.list ul li button{
+  padding: 0;
+  border: none;
+  background: none;
+  color: #f00;
+  cursor: pointer;
+}
+
+.list{
+  margin: 5px;
+}
+
+.listForm{
+  display:inline-block;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  border: 1px solid #CCC;
+  background-color: #FEFEFE;
+  min-width: 300px;
+  min-height: 70px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+.listForm h3{
+  margin: 5px;
+}
+
+.listForm input{
+  font-size: 16px;
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+}
+
+.listForm button{
+  background-color: #4ACA7B;
+  border-style: none;
+  border-radius: 5px; 
+  font-size: 16px;
+  color: #FFF;
+  padding: 10px 15px;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
